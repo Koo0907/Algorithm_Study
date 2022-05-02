@@ -1,5 +1,5 @@
 #include<iostream>
-#include<string.h>
+#include<string>
 
 using namespace std;
 
@@ -17,7 +17,7 @@ int main() {
 
     cin >> idx;
 
-    // ÁÂÇ¥ÀÇ ÃÊ±â°ª (0,0)À¸·Î ¼³Á¤
+    // ì¢Œí‘œì˜ ì´ˆê¸°ê°’ (0,0)ìœ¼ë¡œ ì„¤ì •
     y = idx[0] - 'a';
     x = idx[1] - '1';
 
@@ -26,7 +26,7 @@ int main() {
         next_x = x + dx[i];
         next_y = y + dy[i];
         
-        // 8x8 Çà·ÄÀÇ ¹üÀ§¸¦ ¹þ¾î³ª´Â °æ¿ì°¡ ÀÖ´Ù¸é °æ¿ìÀÇ ¼ö ÇÏ³ª °¨¼Ò
+        // 8x8 í–‰ë ¬ì˜ ë²”ìœ„ë¥¼ ë²—ì–´ë‚˜ëŠ” ê²½ìš°ê°€ ìžˆë‹¤ë©´ ê²½ìš°ì˜ ìˆ˜ í•˜ë‚˜ ê°ì†Œ
         if((next_x < 0) || (next_x > 7) || (next_y < 0) || (next_y > 7))
         {
             cnt--;

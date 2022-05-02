@@ -1,5 +1,5 @@
 #include<iostream>
-#include<string.h>
+#include<string>
 
 using namespace std;
 
@@ -11,19 +11,19 @@ int main() {
 
     cin >> str;
 
-    // ¿ŞÂÊ ºÎºĞÀÇ °¢ ÀÚ¸´¼öÀÇ ÇÕ
+    // ì™¼ìª½ ë¶€ë¶„ì˜ ê° ìë¦¿ìˆ˜ì˜ í•©
     for(int i = 0; i < (str.size() / 2); i++)
     {
         sum1 += (str[i] - '0');
     }
 
-    // ¿À¸¥ÂÊ ºÎºĞÀÇ °¢ ÀÚ¸´¼öÀÇ ÇÕ
+    // ì˜¤ë¥¸ìª½ ë¶€ë¶„ì˜ ê° ìë¦¿ìˆ˜ì˜ í•©
     for(int i = (str.size() / 2); i < str.size(); i++)
     {
         sum2 += (str[i] - '0');
     }
 
-    // °¢ ÇÕµéÀÌ °°ÀºÁö °Ë»ç
+    // ê° í•©ë“¤ì´ ê°™ì€ì§€ ê²€ì‚¬
     if(sum1 == sum2)
     {
         cout << "LUCKY" << endl;
