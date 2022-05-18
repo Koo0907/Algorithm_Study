@@ -1,3 +1,6 @@
+/* 백준 링크 */
+/* https://www.acmicpc.net/problem/16234 */
+
 #include<iostream>
 #include<queue>
 #include<cstring>

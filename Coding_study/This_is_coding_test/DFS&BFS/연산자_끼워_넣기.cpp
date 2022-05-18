@@ -1,3 +1,6 @@
+/* 백준 링크 */
+/* https://www.acmicpc.net/problem/14888 */
+
 #include<iostream>
 
 using namespace std;
