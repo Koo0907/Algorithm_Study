@@ -12,7 +12,7 @@ int end_time = 0;
 
 vector<pair<int, int>> class_time;
 
-// vector<int> 인자와 greater<int> 인자를 추가 선언하여 내림차순으로 정렬되는 우선순위 큐 이용
+// vector<int> 인자와 greater<int> 인자를 추가 선언하여 오름차순으로 정렬되는 우선순위 큐 이용
 priority_queue<int, vector<int>, greater<int>> class_room;
 
 int main()
