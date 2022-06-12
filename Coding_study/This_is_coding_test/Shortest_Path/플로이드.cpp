@@ -1,3 +1,6 @@
+/* 백준 링크 */
+/* https://www.acmicpc.net/problem/11404 */
+
 #include<iostream>
 
 #define INF 1e9 // 무한을 의미하는 값으로 10억을 설정
