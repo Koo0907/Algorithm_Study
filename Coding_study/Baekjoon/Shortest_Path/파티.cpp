@@ -26,7 +26,7 @@ int back_dis[1001];
 
 void dijkstra(int start, bool flag)
 {
-    // {가중치, 도착노드} pair를 요소로 가지며 가중치를 기준으로 내림차순(최소 힙, Min Heap)으로 정렬되도록 우선순위 큐 선언
+    // {가중치, 도착노드} pair를 요소로 가지며 가중치를 기준으로 오름차순(최소 힙, Min Heap)으로 정렬되도록 우선순위 큐 선언
     priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
 
     // int 포인터로 사용해서 flag 파라미터의 값을 보고 go_dis 테이블 사용할지 back_dis 테이블 사용할지 판단

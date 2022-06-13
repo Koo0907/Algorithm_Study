@@ -23,7 +23,7 @@ int dis[1001];
 
 void dijkstra(int start)
 {
-    // {가중치, 도착노드} pair를 요소로 가지며 가중치를 기준으로 내림차순(최소 힙, Min Heap)으로 정렬되도록 우선순위 큐 선언
+    // {가중치, 도착노드} pair를 요소로 가지며 가중치를 기준으로 오름차순(최소 힙, Min Heap)으로 정렬되도록 우선순위 큐 선언
     priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
 
     // 최초 출발 도시와 최단 경로 0을 우선순위 큐에 삽입
