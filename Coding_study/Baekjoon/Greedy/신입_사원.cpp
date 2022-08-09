@@ -21,7 +21,7 @@ int main()
 			cin >> Appl[j].first >> Appl[j].second;
 		}
 
-		// fisrt 순위를 기준으로 오름차순 정렬
+		// first 순위를 기준으로 오름차순 정렬
 		sort(Appl, Appl + num);
 
 		int score = Appl[0].second;
