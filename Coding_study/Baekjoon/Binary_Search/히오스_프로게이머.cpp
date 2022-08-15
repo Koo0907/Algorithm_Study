@@ -10,7 +10,7 @@ int K = 0;
 int num = 0;
 int ans = 0;
 
-vector<int> vec;
+vector<long long> vec;
 
 int main()
 {
@@ -22,18 +22,15 @@ int main()
         vec.push_back(num);
     }
 
-    // 안해도 무방하지만 팀 레벨 최소값과 최대값을 구하기 위해 정렬
-    sort(vec.begin(), vec.end());
+    // 팀 레벨 최소값은 0
+    long long start = 0;
 
-    // 팀 레벨 최소값은 현재 레벨 벡터에서 가장 작은 값
-    int start = vec.front();
-
-    // 팀 레벨 최대값은 현재 레벨 벡터에서 가장 큰 값
-    int end = vec.back();
+    // 팀 레벨 최대값은 1e10
+    long long end = 1e10;
 
     while(start <= end)
     {
-        int mid = (start + end) / 2;
+        long long mid = (start + end) / 2;
 
         // 팀 레벨과 현재 순회중인 레벨의 차이를 누적으로 더하는 sum 변수를 long long으로 선언해야 함
         long long sum = 0;
