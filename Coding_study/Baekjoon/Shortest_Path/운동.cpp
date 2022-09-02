@@ -15,8 +15,6 @@ int b = 0;
 int c = 0;
 int ans = INF;
 
-vector<pair<int, int>> vec[MAX];
-
 // 최단거리 배열
 int dis[MAX][MAX];
 
