@@ -3,9 +3,6 @@
 
 using namespace std;
 
-void reverse_A(string str);
-void reverse_B(string str);
-
 // 사용할 변수 초기화
 string S;
 string T;
